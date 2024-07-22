@@ -21,8 +21,8 @@ public class CompileServices {
         switch (compilerModel.getLanguage().toLowerCase()) {
             case "python":
                 fileExtension = ".py";
-                compileCommand = "python3";
-                runCommand = "python3";
+                compileCommand = "python";
+                runCommand = "python";
                 break;
             case "java":
                 fileExtension = ".java";
