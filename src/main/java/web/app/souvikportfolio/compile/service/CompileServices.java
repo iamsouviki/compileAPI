@@ -22,7 +22,7 @@ public class CompileServices {
             case "python":
                 fileExtension = ".py";
                 compileCommand = "apt install python3 && python3";
-                runCommand = "apt install python3 && python3";
+                runCommand = "sudo apt install python3 && python3";
                 break;
             case "java":
                 fileExtension = ".java";
