@@ -32,7 +32,7 @@ public class CompilerController {
         }
     }
 
-    @PostMapping(value = "/compile-and-test")
+    @PostMapping(value = "/compile/test")
     @CrossOrigin(origins = "*")
     public ResponseEntity<String> compileAndTestCode(@RequestBody CompileandTest compileandTest) throws IOException {
         CompilerModel compilerModel = new CompilerModel();

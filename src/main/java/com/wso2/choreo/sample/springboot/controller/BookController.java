@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
 
 @RestController
-@RequestMapping("/compile")
+@RequestMapping("/ccompile")
 public class BookController {
 
     @Autowired
@@ -24,7 +24,7 @@ public class BookController {
         return service.getBooks().values();
     }
 
-    @GetMapping("/test")
+    @GetMapping("/ttest")
     public Book findBookById(@RequestParam("id") int bookId) {
         return service.getBookById(bookId);
     }
