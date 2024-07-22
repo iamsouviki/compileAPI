@@ -1,4 +1,4 @@
-package com.wso2.choreo.sample.springboot;
+package web.app.souvikportfolio.compile;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

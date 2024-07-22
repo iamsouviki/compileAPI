@@ -1,10 +1,7 @@
-package com.wso2.choreo.sample.springboot.service;
+package web.app.souvikportfolio.compile.service;
 
-import com.wso2.choreo.sample.springboot.model.CompilerModel;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import web.app.souvikportfolio.compile.model.CompilerModel;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.io.File;
 import java.io.FileWriter;

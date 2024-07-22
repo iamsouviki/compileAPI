@@ -1,4 +1,4 @@
-package com.wso2.choreo.sample.springboot;
+package web.app.souvikportfolio.compile;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

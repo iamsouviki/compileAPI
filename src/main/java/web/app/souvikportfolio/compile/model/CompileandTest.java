@@ -1,9 +1,9 @@
-package com.wso2.choreo.sample.springboot.model;
+package web.app.souvikportfolio.compile.model;
 
-public class CompilerModel {
-
-    private String language;
+public class CompileandTest {
+     private String language;
     private String codeText;
+    private String expectedOutput;
 
     public String getLanguage() {
         return language;
@@ -19,5 +19,13 @@ public class CompilerModel {
 
     public void setCodeText(String codeText) {
         this.codeText = codeText;
+    }
+
+    public String getExpectedOutput() {
+        return expectedOutput;
+    }
+
+    public void setExpectedOutput(String expectedOutput) {
+        this.expectedOutput = expectedOutput;
     }
 }
