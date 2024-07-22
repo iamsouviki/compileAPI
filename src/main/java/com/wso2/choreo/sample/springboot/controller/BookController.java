@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
 
 @RestController
-@RequestMapping("/ccompile")
+@RequestMapping("/ccompiler")
 public class BookController {
 
     @Autowired
