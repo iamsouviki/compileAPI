@@ -22,7 +22,7 @@ Please refer to the Choreo documentation under the [Develop a REST API](https://
 - Dockerfile Path: `spring-boot-reading-list-rest-api/Dockerfile`
 - Docker Context Path: `spring-boot-reading-list-rest-api`
 
-The [endpoints.yaml](.choreo/endpoints.yaml) file contains the endpoint configurations that are used by the Choreo to expose the service.
+The [endpoints.yaml](.choreo/component-config.yaml) file contains the endpoint configurations that are used by the Choreo to expose the service.
 
 ## Execute the Sample Locally
 
